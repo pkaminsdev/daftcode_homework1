@@ -12,7 +12,9 @@ module.exports = {
     },
     mode: 'development',
     plugins: [
-        new HtmlWebpackPlugin(),
+        new HtmlWebpackPlugin({
+                template: 'src/index.html'
+        }),
         new MiniCssExtractPlugin({
             filename: "[name].css",
             chunkFilename: "[id].css"
