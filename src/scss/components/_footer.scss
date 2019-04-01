@@ -1,0 +1,25 @@
+.footer
+{
+    width: 1000px;
+    margin: auto;
+    font-family: $font-family-menu;
+    color: $color-menuitem;
+    font-size: $font-size-footer;
+    
+    &__left-text
+    {
+        padding: 20px 30px 20px 30px;
+        float: left;
+    }
+
+    &__left-span
+    {
+        color: $color-menuitemactive;
+    }
+
+    &__right-text
+    {
+        padding: 20px 30px 20px 30px;
+        float: right;
+    }
+}

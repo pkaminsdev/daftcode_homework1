@@ -2,12 +2,12 @@
     'base/reset';
 
 @import
-    'layout/footer',
-    'layout/grid',
-    'layout/header';
+    'utils/colors',
+    'utils/fonts';
 
 @import
-    'utils/functions',
-    'utils/mixins',
-    'utils/variables';
+    'components/header',
+    'components/container',
+    'components/footer';
+
     

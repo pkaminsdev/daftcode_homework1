@@ -1,0 +1,49 @@
+.container
+{
+    width: 800px;
+    margin: auto;
+    background-color: $color-verylightblue;
+    margin-top: -30px;
+    padding: 70px 100px 70px 100px;
+
+    .menu-list
+    {
+        &__item
+        {
+            float: left;
+            color: $color-menuitem;
+            padding: 10px 15px 10px 15px;
+
+            font-family: $font-family-menu;
+            font-size: $font-size-menu;
+
+            & a
+            {
+                text-decoration:none;
+                color: inherit;
+            }
+
+            &--active
+            {
+                color: $color-menuitemactive;
+                border-bottom: 1px solid $color-menuitemactive;
+            }
+        }
+    }
+
+    .drinks-tiles
+    {
+        clear: both;
+        display: block;
+        margin-top: 80px;
+
+        &__item
+        {
+            display: inline-block;
+            margin-right: 60px;
+            margin-bottom: 40px;
+            width: 200px;
+            border-radius: 2px;
+        }
+    }
+}

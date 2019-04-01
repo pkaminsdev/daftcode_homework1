@@ -1,0 +1,20 @@
+.header
+{
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+
+    .header__text
+    {
+        display: inline-block;
+        margin-left: 30px;
+        margin-top: 50px;
+        border: solid $color-dinksfont 1.5px;
+        border-radius: 1.5px;
+        padding: 10px 25px 10px 25px;
+        font-family: $font-family-dinks;
+        font-size: $font-size-dinks;
+        font-weight: $font-weigth-dinks;
+        color: $color-dinksfont;
+    }
+}
